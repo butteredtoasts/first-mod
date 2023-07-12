@@ -1,5 +1,7 @@
 {
   "item.rubymod.ruby": "Ruby",
+  "item.rubymod.burger": "Burger",
+  "item.rubymod.magma_ball": "Magma Ball",
 
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.ruby_ore": "Ruby Ore",

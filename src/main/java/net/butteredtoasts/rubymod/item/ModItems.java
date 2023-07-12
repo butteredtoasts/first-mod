@@ -1,6 +1,7 @@
 package net.butteredtoasts.rubymod.item;
 
 import net.butteredtoasts.rubymod.RubyMod;
+import net.butteredtoasts.rubymod.item.custom.FuelItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,7 +15,11 @@ public class ModItems {
 
     // List of items added
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
-        () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BURGER = ITEMS.register("burger",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BURGER)));
+    public static final RegistryObject<Item> MAGMA_BALL = ITEMS.register("magma_ball",
+            () -> new FuelItem(new Item.Properties(), 6400));
 
 
     // Registers items in RubyMod class

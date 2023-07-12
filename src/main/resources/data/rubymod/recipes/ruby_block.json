@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "rubymod:ruby"
+    }
+  },
+  "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "result": {
+      "item": "rubymod:ruby_block"
+    }
+  },
+  "show_notification": true
+}

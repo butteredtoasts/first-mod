@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "S": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "pattern": [
+    "BSB"
+  ],
+  "result": {
+    "item": "rubymod:burger"
+  }
+},
+"show_notification": true
+}
