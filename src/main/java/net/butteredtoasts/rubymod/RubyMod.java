@@ -1,6 +1,7 @@
 package net.butteredtoasts.rubymod;
 
 import com.mojang.logging.LogUtils;
+import net.butteredtoasts.rubymod.block.ModBlocks;
 import net.butteredtoasts.rubymod.item.ModCreativeModeTabs;
 import net.butteredtoasts.rubymod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -24,8 +25,9 @@ public class RubyMod {
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // Instantiates ModItems class to register items specified
+        // Instantiates ModItems  and ModBlocks class to register objects specified
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Instantiates ModCreativeModeTabs class to register items specified
         ModCreativeModeTabs.register(modEventBus);
