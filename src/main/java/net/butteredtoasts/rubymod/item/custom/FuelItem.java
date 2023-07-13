@@ -5,6 +5,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeType;
 import org.jetbrains.annotations.Nullable;
 
+// Helps determine burn time for new fuel items
 public class FuelItem extends Item {
     private int burnTime = 0;
     public FuelItem(Properties pProperties, int burnTime) {

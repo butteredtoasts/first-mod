@@ -1,6 +1,7 @@
 package net.butteredtoasts.rubymod.item;
 
 import net.butteredtoasts.rubymod.RubyMod;
+import net.butteredtoasts.rubymod.item.custom.BreadKnifeItem;
 import net.butteredtoasts.rubymod.item.custom.FuelItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,8 +19,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BURGER = ITEMS.register("burger",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BURGER)));
+    public static final RegistryObject<Item> BUN = ITEMS.register("bun",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BUN)));
     public static final RegistryObject<Item> MAGMA_BALL = ITEMS.register("magma_ball",
             () -> new FuelItem(new Item.Properties(), 6400));
+    public static final RegistryObject<Item> BREAD_KNIFE = ITEMS.register("bread_knife",
+            () -> new BreadKnifeItem(new Item.Properties().durability(128)));
 
 
     // Registers items in RubyMod class

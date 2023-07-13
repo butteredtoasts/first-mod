@@ -22,7 +22,9 @@ public class ModCreativeModeTabs {
                     .displayItems((displayParameters, output) -> {
                         output.accept(ModItems.RUBY.get());
                         output.accept(ModItems.BURGER.get());
+                        output.accept(ModItems.BUN.get());
                         output.accept(ModItems.MAGMA_BALL.get());
+                        output.accept(ModItems.BREAD_KNIFE.get());
 
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.RUBY_ORE.get());

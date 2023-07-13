@@ -1,10 +1,13 @@
 {
   "item.rubymod.ruby": "Ruby",
   "item.rubymod.burger": "Burger",
+  "item.rubymod.bun": "Bun",
   "item.rubymod.magma_ball": "Magma Ball",
+  "item.rubymod.bread_knife": "Bread Knife",
 
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.ruby_ore": "Ruby Ore",
+  "block.rubymod.cutting_board": "Cutting Board",
 
   "creativetab.ruby_tab": "Ruby Mod"
 }
