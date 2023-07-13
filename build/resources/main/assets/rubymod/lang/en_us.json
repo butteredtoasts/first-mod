@@ -1,5 +1,7 @@
 {
   "item.rubymod.ruby": "Ruby",
+  "item.rubymod.ruby_dust": "Ruby Dust",
+  "item.rubymod.raw_ruby": "Raw Ruby",
   "item.rubymod.burger": "Burger",
   "item.rubymod.bun": "Bun",
   "item.rubymod.magma_ball": "Magma Ball",
@@ -7,7 +9,9 @@
 
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.ruby_ore": "Ruby Ore",
-  "block.rubymod.cutting_board": "Cutting Board",
 
-  "creativetab.ruby_tab": "Ruby Mod"
+  "creativetab.ruby_tab": "Ruby Mod",
+
+  "tooltip.rubymod.bread_knife_tooltip.shift": "Right click to convert bread into buns\nConverts 1 bread into 2 buns",
+  "tooltip.rubymod.bread_knife_tooltip": "Right click to convert bread into buns\nHold §eSHIFT§r for more information"
 }

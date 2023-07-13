@@ -17,6 +17,10 @@ public class ModItems {
     // List of items added
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RUBY_DUST = ITEMS.register("ruby_dust",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BURGER = ITEMS.register("burger",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BURGER)));
     public static final RegistryObject<Item> BUN = ITEMS.register("bun",

@@ -21,6 +21,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.ruby_tab"))
                     .displayItems((displayParameters, output) -> {
                         output.accept(ModItems.RUBY.get());
+                        output.accept(ModItems.RUBY_DUST.get());
+                        output.accept(ModItems.RAW_RUBY.get());
                         output.accept(ModItems.BURGER.get());
                         output.accept(ModItems.BUN.get());
                         output.accept(ModItems.MAGMA_BALL.get());

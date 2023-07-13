@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: rubymod
+Specification-Vendor: ButteredToasts
+Specification-Version: 1
+Implementation-Title: first-mod
+Implementation-Version: 0.1-1.20.1
+Implementation-Vendor: ButteredToasts
+Implementation-Timestamp: 2023-07-13T17:57:10-0400
+

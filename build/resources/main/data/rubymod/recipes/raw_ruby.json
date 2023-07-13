@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "rubymod:ruby_dust"
+    }
+  },
+  "pattern": [
+    "RR"
+  ],
+  "result": {
+    "item": "rubymod:raw_ruby"
+  },
+  "show_notification": true
+}
