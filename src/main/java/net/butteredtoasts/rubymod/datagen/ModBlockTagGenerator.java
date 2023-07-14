@@ -21,11 +21,26 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.RUBY_BLOCK.get(),
-                        ModBlocks.RUBY_ORE.get());
+                        ModBlocks.RUBY_ORE.get(),
+                        ModBlocks.RUBY_STAIRS.get(),
+                        ModBlocks.RUBY_SLAB.get(),
+                        ModBlocks.RUBY_FENCE.get(),
+                        ModBlocks.RUBY_FENCE_GATE.get(),
+                        ModBlocks.RUBY_WALL.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RUBY_BLOCK.get(),
-                        ModBlocks.RUBY_ORE.get());
+                        ModBlocks.RUBY_ORE.get(),
+                        ModBlocks.RUBY_STAIRS.get(),
+                        ModBlocks.RUBY_SLAB.get(),
+                        ModBlocks.RUBY_FENCE.get(),
+                        ModBlocks.RUBY_FENCE_GATE.get(),
+                        ModBlocks.RUBY_WALL.get());
+
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.RUBY_FENCE.get(),
+                        ModBlocks.RUBY_FENCE_GATE.get(),
+                        ModBlocks.RUBY_WALL.get());
     }
 
     @Override

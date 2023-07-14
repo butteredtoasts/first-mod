@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "rubymod:ruby"
+    }
+  },
+  "pattern": [
+    "RRR"
+  ],
+  "result": {
+    "item": "rubymod:ruby_slab"
+  },
+  "show_notification": true
+}

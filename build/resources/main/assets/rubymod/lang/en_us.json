@@ -9,6 +9,16 @@
 
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.ruby_ore": "Ruby Ore",
+  "block.rubymod.ruby_stairs": "Ruby Stairs",
+  "block.rubymod.ruby_slab": "Ruby Slab",
+  "block.rubymod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.rubymod.ruby_button": "Ruby Button",
+  "block.rubymod.ruby_fence": "Ruby Fence",
+  "block.rubymod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.rubymod.ruby_wall": "Ruby Wall",
+  "block.rubymod.ruby_door": "Ruby Door",
+  "block.rubymod.ruby_trapdoor": "Ruby Trapdoor",
+
 
   "creativetab.ruby_tab": "Ruby Mod",
 

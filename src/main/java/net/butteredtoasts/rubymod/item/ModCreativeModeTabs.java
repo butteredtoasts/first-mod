@@ -30,6 +30,15 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.RUBY_ORE.get());
+                        output.accept(ModBlocks.RUBY_FENCE.get());
+                        output.accept(ModBlocks.RUBY_FENCE_GATE.get());
+                        output.accept(ModBlocks.RUBY_WALL.get());
+                        output.accept(ModBlocks.RUBY_STAIRS.get());
+                        output.accept(ModBlocks.RUBY_SLAB.get());
+                        output.accept(ModBlocks.RUBY_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.RUBY_BUTTON.get());
+                        output.accept(ModBlocks.RUBY_DOOR.get());
+                        output.accept(ModBlocks.RUBY_TRAPDOOR.get());
                     }).build());
 
     // Registers the Creative Mode Tab in RubyMod class

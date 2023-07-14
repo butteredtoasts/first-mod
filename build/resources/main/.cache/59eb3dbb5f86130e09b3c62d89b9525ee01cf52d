@@ -1,3 +1,12 @@
-// 1.20.1	2023-07-13T17:35:33.8290113	Loot Tables
+// 1.20.1	2023-07-13T20:10:17.5009827	Loot Tables
 ca3961e31d84a8cd9a0a309b76f4cc8ea85f5844 data/rubymod/loot_tables/blocks/ruby_block.json
+50e5b103acc2eaa72344fa9d045147b35718974f data/rubymod/loot_tables/blocks/ruby_button.json
+acdda99a563c275a75208beb7cf081fb6f239c83 data/rubymod/loot_tables/blocks/ruby_door.json
+5cd4328c73068112c19105977e332a398be51ff1 data/rubymod/loot_tables/blocks/ruby_fence.json
+1cdfc6bbeb7bcc1294b2cecfc94a0ba9d000e9b0 data/rubymod/loot_tables/blocks/ruby_fence_gate.json
 bfdf81a89445ee40a456ff51aa133ee364a322fb data/rubymod/loot_tables/blocks/ruby_ore.json
+02e666256fa4614b16d0081dcb1892a18d2e97c9 data/rubymod/loot_tables/blocks/ruby_pressure_plate.json
+5666d8f13617a18b84dab690a72a162058c72ac4 data/rubymod/loot_tables/blocks/ruby_slab.json
+67b9542c51460b3ecdf4e27a8e4d80662551cf9d data/rubymod/loot_tables/blocks/ruby_stairs.json
+94c1bd57c7fe199808935553be3bb9b5ed04dcd8 data/rubymod/loot_tables/blocks/ruby_trapdoor.json
+ff5e6558c582f1496c783a0902b38cf44ee8785a data/rubymod/loot_tables/blocks/ruby_wall.json

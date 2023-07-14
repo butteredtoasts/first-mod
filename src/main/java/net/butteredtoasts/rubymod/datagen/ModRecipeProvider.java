@@ -33,6 +33,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(ModItems.RUBY.get()).build()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RUBY_STAIRS.get())
+                .pattern("R  ")
+                .pattern("RR ")
+                .pattern("RRR")
+                .define('R', ModItems.RUBY.get())
+                .unlockedBy("has_ruby", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.RUBY.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RUBY_SLAB.get())
+                .pattern("RRR")
+                .define('R', ModItems.RUBY.get())
+                .unlockedBy("has_ruby", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.RUBY.get()).build()))
+                .save(pWriter);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RUBY.get(), 9)
                 .requires(ModBlocks.RUBY_BLOCK.get())
                 .unlockedBy("has_ruby_block", inventoryTrigger(ItemPredicate.Builder.item()

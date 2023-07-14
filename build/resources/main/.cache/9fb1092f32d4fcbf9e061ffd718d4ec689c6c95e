@@ -1,4 +1,4 @@
-// 1.20.1	2023-07-13T18:07:39.784818	Recipes
+// 1.20.1	2023-07-13T19:08:54.1097892	Recipes
 ab9983ad18ec23ec32893d9ed842d57a3e94d1c3 data/minecraft/advancements/recipes/misc/ruby_from_blasting_raw_ruby.json
 1196f0e75525e1e42bffd3fae214398669d89c04 data/minecraft/advancements/recipes/misc/ruby_from_smelting_raw_ruby.json
 683ceef173c567e14e9dad81c29de8601f45e307 data/minecraft/recipes/ruby_from_blasting_raw_ruby.json
@@ -6,6 +6,10 @@ ab9983ad18ec23ec32893d9ed842d57a3e94d1c3 data/minecraft/advancements/recipes/mis
 8355005d52c2955b60e2a080ed9f4b33dfebedd6 data/rubymod/advancements/recipes/misc/raw_ruby.json
 2ddf44e650807b95c6737133632c004d56a81df8 data/rubymod/advancements/recipes/misc/ruby.json
 4b2ce5a915a17895855ce4e9e18d289232811e83 data/rubymod/advancements/recipes/misc/ruby_block.json
+f944874f0ce451f841d48bf7c58861798a6d0269 data/rubymod/advancements/recipes/misc/ruby_slab.json
+2b6121d58778b0090a398b320962c31f94564caa data/rubymod/advancements/recipes/misc/ruby_stairs.json
 e4e3fe8ea703be09d3ebb763ccceea5db045cb31 data/rubymod/recipes/raw_ruby.json
 559787c1c6c69dc51e819d65d5f81212d1e7043c data/rubymod/recipes/ruby.json
 3f10458dc8006cc041d03d2bd18f03909048ce71 data/rubymod/recipes/ruby_block.json
+73c937408eb85c9af580b5bee5053b140aa0896d data/rubymod/recipes/ruby_slab.json
+1ce815ece732d15d69b2730242135dde239130a1 data/rubymod/recipes/ruby_stairs.json

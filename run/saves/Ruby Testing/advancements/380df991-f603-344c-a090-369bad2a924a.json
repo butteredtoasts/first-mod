@@ -300,5 +300,71 @@
     },
     "done": true
   },
+  "rubymod:recipes/misc/ruby_stairs": {
+    "criteria": {
+      "has_ruby": "2023-07-13 19:12:09 -0400"
+    },
+    "done": true
+  },
+  "rubymod:recipes/misc/ruby_slab": {
+    "criteria": {
+      "has_ruby": "2023-07-13 19:12:09 -0400"
+    },
+    "done": true
+  },
+  "rubymod:recipes/misc/ruby": {
+    "criteria": {
+      "has_ruby_block": "2023-07-13 19:12:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2023-07-13 19:34:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2023-07-13 19:34:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2023-07-13 19:34:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2023-07-13 19:34:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2023-07-13 19:34:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2023-07-13 19:34:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2023-07-13 19:34:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2023-07-13 19:34:10 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

@@ -1,7 +1,11 @@
 {
-  "replace": false,
   "values": [
     "rubymod:ruby_block",
-    "rubymod:ruby_ore"
+    "rubymod:ruby_ore",
+    "rubymod:ruby_stairs",
+    "rubymod:ruby_slab",
+    "rubymod:ruby_fence",
+    "rubymod:ruby_fence_gate",
+    "rubymod:ruby_wall"
   ]
 }
