@@ -29,13 +29,20 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.RUBY_WALL.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.RUBY_BLOCK.get(),
-                        ModBlocks.RUBY_ORE.get(),
+                .add(ModBlocks.RUBY_ORE.get(),
                         ModBlocks.RUBY_STAIRS.get(),
                         ModBlocks.RUBY_SLAB.get(),
                         ModBlocks.RUBY_FENCE.get(),
                         ModBlocks.RUBY_FENCE_GATE.get(),
                         ModBlocks.RUBY_WALL.get());
+
+        this.tag(ModTags.Blocks.NEEDS_RUBY_TOOL)
+                .add(ModBlocks.RUBY_BLOCK.get());
+
+        this.tag(ModTags.Blocks.PAXEL_MINEABLE)
+                .addTags(BlockTags.MINEABLE_WITH_PICKAXE,
+                BlockTags.MINEABLE_WITH_AXE,
+                BlockTags.MINEABLE_WITH_SHOVEL);
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.RUBY_FENCE.get(),

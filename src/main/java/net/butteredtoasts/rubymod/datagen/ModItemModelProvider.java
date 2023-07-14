@@ -30,6 +30,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BURGER);
         simpleBlockItem(ModBlocks.RUBY_DOOR);
 
+        handheldItem(ModItems.RUBY_SWORD);
+        handheldItem(ModItems.RUBY_PICKAXE);
+        handheldItem(ModItems.RUBY_AXE);
+        handheldItem(ModItems.RUBY_SHOVEL);
+        handheldItem(ModItems.RUBY_HOE);
+        handheldItem(ModItems.RUBY_PAXEL);
+
         buttonItem(ModBlocks.RUBY_BUTTON, ModBlocks.RUBY_BLOCK);
         fenceItem(ModBlocks.RUBY_FENCE, ModBlocks.RUBY_BLOCK);
         wallItem(ModBlocks.RUBY_WALL, ModBlocks.RUBY_BLOCK);
@@ -47,6 +54,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
                 .texture("texture", new ResourceLocation(RubyMod.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(RubyMod.MOD_ID, "item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {

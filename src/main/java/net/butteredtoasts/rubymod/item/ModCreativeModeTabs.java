@@ -28,6 +28,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MAGMA_BALL.get());
                         output.accept(ModItems.BREAD_KNIFE.get());
 
+                        output.accept(ModItems.RUBY_SWORD.get());
+                        output.accept(ModItems.RUBY_PICKAXE.get());
+                        output.accept(ModItems.RUBY_AXE.get());
+                        output.accept(ModItems.RUBY_SHOVEL.get());
+                        output.accept(ModItems.RUBY_HOE.get());
+                        output.accept(ModItems.RUBY_PAXEL.get());
+
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.RUBY_ORE.get());
                         output.accept(ModBlocks.RUBY_FENCE.get());

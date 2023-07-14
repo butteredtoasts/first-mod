@@ -1,4 +1,6 @@
-// 1.20.1	2023-07-13T19:51:20.1595169	Block Tags
+// 1.20.1	2023-07-14T13:52:24.875941	Block Tags
 9b7929655447d7988af6163eac9f7644d1f056cc data/minecraft/tags/blocks/fences.json
 c6c71653078753905190dd6180bdb63417f586e4 data/minecraft/tags/blocks/mineable/pickaxe.json
-c6c71653078753905190dd6180bdb63417f586e4 data/minecraft/tags/blocks/needs_iron_tool.json
+ecca2e07c241d3bf7985cee05fea34be1fd518fa data/minecraft/tags/blocks/needs_iron_tool.json
+82362cfbd1836db13c7e9d36c8712821e795ac55 data/rubymod/tags/blocks/mineable/paxel.json
+4cdc417d02aac54f9b465bace16987488928f037 data/rubymod/tags/blocks/needs_ruby_tool.json

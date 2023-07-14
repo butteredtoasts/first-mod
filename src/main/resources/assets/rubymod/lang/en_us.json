@@ -6,6 +6,13 @@
   "item.rubymod.bun": "Bun",
   "item.rubymod.magma_ball": "Magma Ball",
   "item.rubymod.bread_knife": "Bread Knife",
+  "item.rubymod.ruby_sword": "Ruby Sword",
+  "item.rubymod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.rubymod.ruby_axe": "Ruby Axe",
+  "item.rubymod.ruby_shovel": "Ruby Shovel",
+  "item.rubymod.ruby_hoe": "Ruby Hoe",
+  "item.rubymod.ruby_paxel": "Ruby Paxel",
+
 
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.ruby_ore": "Ruby Ore",

@@ -6,6 +6,7 @@ import net.butteredtoasts.rubymod.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -47,6 +48,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('R', ModItems.RUBY.get())
                 .unlockedBy("has_ruby", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.RUBY.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BURGER.get())
+                .pattern("BSB")
+                .define('B', ModItems.BUN.get())
+                .define('S', Items.COOKED_BEEF)
+                .unlockedBy("has_bun", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.BUN.get()).build()))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RUBY.get(), 9)
